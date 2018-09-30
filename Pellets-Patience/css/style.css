@@ -1,0 +1,66 @@
+
+@font-face {
+    font-family:"Heebo";
+    src: url("../css/fonts/Heebo-Medium.ttf");
+    src: url("../css/fonts/Heebo-Regular.ttf");
+   }
+
+#container {
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+}
+
+header {
+    height: 60px;
+    background-color: rgb(250,250,250);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+#logo {
+    Width: 55px;
+    padding-left: 30px;
+}
+
+
+#hamburger {
+    padding-right: 30px;
+    width: 18;
+    height: 24;
+    /* background-color: blue; */
+}
+
+section {
+    width: auto;
+    height: calc(100vh - 60px);
+    background-image: url("../images/P&PSMBackground\ \(3\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+ul {
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    font-family: "Heebo";
+    top: 0;
+    bottom: 0;
+    left: 150px;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    width: calc(100% - 60px);
+    padding: 36px;
+    overflow: hidden;
+    background-color: rgba(250, 250, 250, 0.8);
+}
